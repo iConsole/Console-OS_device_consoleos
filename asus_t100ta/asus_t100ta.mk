@@ -28,3 +28,7 @@ PRODUCT_RESTRICT_VENDOR_FILES := false
 
 PRODUCT_AAPT_CONFIG := normal large mdpi tvdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
+
+# Downstepping to 32-bit build for debug
+# TARGET_KERNEL_ARCH := x86
+# TARGET_CPU_VARIANT := x86
