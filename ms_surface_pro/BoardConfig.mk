@@ -24,7 +24,7 @@ TARGET_2ND_ARCH_VARIANT := ivybridge
 # also affects UI in Userfastboot (use for AndCanGO)
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 
-# DPI is 208
+# DPI is 208, rounding to 213 for tvdpi
 ADDITIONAL_DEFAULT_PROPERTIES += ro.sf.lcd_density=213
 
 #####################################################################
